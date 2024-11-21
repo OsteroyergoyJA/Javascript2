@@ -8,14 +8,12 @@
     <script type="module" src="script.js" defer></script>
   </head>
   <body>
-    <main>
-      <form onsubmit="time()">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="">
-      </form>
-      <h1 class="output" id="showtime"></h1>
-    </main>
+    <form id="myForm" onsubmit="time()">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br>
+    </form>
+    <h1 id="dato"></h1>
   </body>
 </html>

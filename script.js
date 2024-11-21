@@ -1,33 +1,34 @@
-
-//forsøk på å løse logg inn sjekk//
-
 /*
-let fname=any
-let lname=any
 
-function myFunction(fname,lname){
-    const date=new Date();
-    getUTCdate();   
-    date.toLocaleTimeString();string;
-}
+let x=3
+let y=5
 
-*/
+console.log(x*y)
 
-let box1=fname
-let box2=lname
+//er det dette du mener med boolean?//
+console.log(x!=y)
 
-function time(_box1,_box2){
+let string="1 2 3"
 
-const current=new Date();
-current.toDateString(); String;
-document.getElementById("showtime").innerHTML = current;
+console.log(string)
 
+let calculation = 15/3
+
+console.log(calculation)
+
+const d=new Date();
+
+console.log(d) */
+
+//forsøk på logg inn sjekk//
+
+
+
+
+function time() {{
+    const current=new Date();
+    current.toLocaleTimeString(); String;
+    document.getElementById("dato").innerHTML = String;}
 }
 
 console.log(time)
-
-
-
-//eksempel på forskjellige data//
-
-
