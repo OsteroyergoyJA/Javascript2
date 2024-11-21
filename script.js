@@ -1,4 +1,4 @@
-/*
+
 
 let x=3
 let y=5
@@ -18,17 +18,19 @@ console.log(calculation)
 
 const d=new Date();
 
-console.log(d) */
-
-//forsøk på logg inn sjekk//
+console.log(d)
 
 
+//forsøk på å løse logg inn sjekk//
 
-
-function time() {{
+/*
+function time() {
     const current=new Date();
     current.toLocaleTimeString(); String;
-    document.getElementById("dato").innerHTML = String;}
+    document.getElementById("dato").innerHTML = String;
+   
 }
 
-console.log(time)
+
+
+console.log(time)*/
