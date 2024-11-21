@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Javascript2</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <script type="module" src="script.js" defer></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
     <main>
-      <h1>Home page</h1>
+      <form onsubmit="time()">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="">
+      </form>
+      <h1 class="output" id="showtime"></h1>
     </main>
   </body>
 </html>
